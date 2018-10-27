@@ -1,0 +1,27 @@
+2018-10-27 21:32:48 - root - ERROR: - invalid page: https://github.com/search?p=2&q=created%3A2000-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 21:38:50 - root - ERROR: - invalid page: https://github.com/search?p=2&q=created%3A2010-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 21:43:55 - root - ERROR: - invalid page: https://github.com/search?p=2&q=created%3A2010-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 21:44:42 - root - ERROR: - invalid page: https://github.com/search?p=2&q=created%3A2010-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 21:44:42 - root - ERROR: - reason: 'NavigableString' object has no attribute 'raw'
+2018-10-27 22:18:19 - root - ERROR: - invalid page: https://github.com/search?p=1&q=created%3A2010-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 22:18:19 - root - ERROR: - reason: 'NoneType' object has no attribute 'string'
+2018-10-27 22:32:50 - root - ERROR: - invalid page: https://github.com/search?p=1&q=created%3A2010-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 22:32:50 - root - ERROR: - reason: 'int' object has no attribute 'name'
+2018-10-27 22:43:28 - root - ERROR: - invalid page: https://github.com/search?p=1&q=created%3A2010-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 22:43:28 - root - ERROR: - reason: 'NoneType' object has no attribute 'strip'
+2018-10-27 22:52:48 - root - ERROR: - invalid page: https://github.com/search?p=1&q=created%3A2010-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 22:52:48 - root - ERROR: - reason: 'NavigableString' object has no attribute 'contents'
+2018-10-27 22:53:51 - root - ERROR: - invalid page: https://github.com/search?p=1&q=created%3A2010-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 22:53:51 - root - ERROR: - reason: 'NavigableString' object has no attribute 'contents'
+2018-10-27 22:54:28 - root - ERROR: - invalid page: https://github.com/search?p=1&q=created%3A2010-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 22:54:28 - root - ERROR: - reason: 'NavigableString' object has no attribute 'contents'
+2018-10-27 22:54:47 - root - ERROR: - invalid page: https://github.com/search?p=1&q=created%3A2010-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 22:54:47 - root - ERROR: - reason: 'NavigableString' object has no attribute 'contents'
+2018-10-27 22:55:14 - root - ERROR: - invalid page: https://github.com/search?p=1&q=created%3A2010-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 22:55:14 - root - ERROR: - reason: 'NavigableString' object has no attribute 'contents'
+2018-10-27 22:55:57 - root - ERROR: - invalid page: https://github.com/search?p=1&q=created%3A2010-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 22:55:57 - root - ERROR: - reason: 'NavigableString' object has no attribute 'contents'
+2018-10-27 22:56:12 - root - ERROR: - invalid page: https://github.com/search?p=1&q=created%3A2010-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 22:56:12 - root - ERROR: - reason: 'NavigableString' object has no attribute 'contents'
+2018-10-27 23:03:43 - root - ERROR: - invalid page: https://github.com/search?p=1&q=created%3A200-10-19&type=Repositories&s=stars&o=desc
+2018-10-27 23:03:43 - root - ERROR: - reason: 'NoneType' object has no attribute 'contents'
