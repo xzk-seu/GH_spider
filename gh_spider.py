@@ -49,7 +49,7 @@ def page_spider(date_str, page):
     path = os.path.join(os.getcwd(), 'result', date_str.split('-')[0])
     if not os.path.exists(path):
         os.makedirs(path)
-    file_name = os.path.join(path, '%s:%d.json' % (date_str, page))
+    file_name = os.path.join(path, '%s-%d.json' % (date_str, page))
     with open(file_name, 'w') as fw:
         json.dump(page_dict, fw, indent=4)
         logger.info('%s:%d is done!' % (date_str, page))
