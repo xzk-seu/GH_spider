@@ -1,0 +1,98 @@
+{
+    "daily_num": 313,
+    "repo": [
+        {
+            "name": "dokuwiki",
+            "owner": "splitbrain",
+            "path": "https://github.com/splitbrain/dokuwiki",
+            "description": "The DokuWiki Open Source Wiki Engine",
+            "topics": [
+                "php",
+                "wiki-engine"
+            ],
+            "language": "PHP",
+            "star": "2.3k"
+        },
+        {
+            "name": "pyapns",
+            "owner": "samuraisam",
+            "path": "https://github.com/samuraisam/pyapns",
+            "description": "An APNS provider with multi-app support.",
+            "topics": [],
+            "language": "Python",
+            "star": "1.9k"
+        },
+        {
+            "name": "rmagick",
+            "owner": "rmagick-temp",
+            "path": "https://github.com/rmagick-temp/rmagick",
+            "description": "An interface to the ImageMagick and GraphicsMagick image processing libraries.",
+            "topics": [],
+            "language": "C",
+            "star": "808"
+        },
+        {
+            "name": "TeleHash",
+            "owner": "quartzjer",
+            "path": "https://github.com/quartzjer/TeleHash",
+            "description": "Old v1 repo, please see",
+            "topics": [],
+            "language": "Java",
+            "star": "764"
+        },
+        {
+            "name": "Graphite",
+            "owner": "mit-carbon",
+            "path": "https://github.com/mit-carbon/Graphite",
+            "description": "A parallel, distributed simulator for multicores.",
+            "topics": [],
+            "language": "GLSL",
+            "star": "137"
+        },
+        {
+            "name": "acm",
+            "owner": "ivankra",
+            "path": "https://github.com/ivankra/acm",
+            "description": "My accepted submissions to ACM ICPC training and related sites",
+            "topics": [],
+            "language": "C++",
+            "star": "113"
+        },
+        {
+            "name": "where-do-you-go",
+            "owner": "lehrblogger",
+            "path": "https://github.com/lehrblogger/where-do-you-go",
+            "description": "Visualize your Foursquare check-ins as a heat map and share the places you go!",
+            "topics": [],
+            "language": "Python",
+            "star": "112"
+        },
+        {
+            "name": "bistro_car",
+            "owner": "jnicklas",
+            "path": "https://github.com/jnicklas/bistro_car",
+            "description": "This project is obsolete. Use the asset pipeline now built into Rails instead.",
+            "topics": [],
+            "language": "Ruby",
+            "star": "105"
+        },
+        {
+            "name": "js-fireworks",
+            "owner": "kennethkufluk",
+            "path": "https://github.com/kennethkufluk/js-fireworks",
+            "description": "JavaScript Fireworks",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "80"
+        },
+        {
+            "name": "twitter-login",
+            "owner": "mislav",
+            "path": "https://github.com/mislav/twitter-login",
+            "description": "Login through Twitter; DEPRECATED in favor of omniauth-twitter.",
+            "topics": [],
+            "language": "Ruby",
+            "star": "64"
+        }
+    ]
+}

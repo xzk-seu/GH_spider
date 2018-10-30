@@ -1,0 +1,100 @@
+{
+    "daily_num": 373,
+    "repo": [
+        {
+            "name": "node-mongodb-native",
+            "owner": "mongodb",
+            "path": "https://github.com/mongodb/node-mongodb-native",
+            "description": "Mongo DB Native NodeJS Driver",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "7.4k"
+        },
+        {
+            "name": "DeepLearningTutorials",
+            "owner": "lisa-lab",
+            "path": "https://github.com/lisa-lab/DeepLearningTutorials",
+            "description": "Deep Learning Tutorial notes and code. See the wiki for more info.",
+            "topics": [],
+            "language": "Python",
+            "star": "3.6k"
+        },
+        {
+            "name": "geminabox",
+            "owner": "geminabox",
+            "path": "https://github.com/geminabox/geminabox",
+            "description": "Really simple rubygem hosting",
+            "topics": [],
+            "language": "Ruby",
+            "star": "1.3k"
+        },
+        {
+            "name": "xhp-lib",
+            "owner": "hhvm",
+            "path": "https://github.com/hhvm/xhp-lib",
+            "description": "Class libraries for XHP. XHP is a Hack feature that augments the syntax of the language such that XML document fragme\u2026",
+            "topics": [
+                "hack",
+                "facebook",
+                "hacklang",
+                "xhp"
+            ],
+            "language": "Hack",
+            "star": "1.2k"
+        },
+        {
+            "name": "net-http-cheat-sheet",
+            "owner": "augustl",
+            "path": "https://github.com/augustl/net-http-cheat-sheet",
+            "description": "A collection of Ruby Net::HTTP examples.",
+            "topics": [],
+            "language": "Ruby",
+            "star": "1.1k"
+        },
+        {
+            "name": "node-dirty",
+            "owner": "felixge",
+            "path": "https://github.com/felixge/node-dirty",
+            "description": "A tiny & fast key value store with append-only disk log. Ideal for apps with < 1 million records.",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "574"
+        },
+        {
+            "name": "node-jslint",
+            "owner": "reid",
+            "path": "https://github.com/reid/node-jslint",
+            "description": "The JavaScript Code Quality Tool \u2014 for Node.js.",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "470"
+        },
+        {
+            "name": "django-mumblr",
+            "owner": "hmarr",
+            "path": "https://github.com/hmarr/django-mumblr",
+            "description": "Mumblr is a basic Django tumblelog application that uses MongoDB.",
+            "topics": [],
+            "language": "Python",
+            "star": "264"
+        },
+        {
+            "name": "chromesniffer",
+            "owner": "nqbao",
+            "path": "https://github.com/nqbao/chromesniffer",
+            "description": "[deprecated] Chrome Sniffer extension",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "257"
+        },
+        {
+            "name": "ipc-bench",
+            "owner": "rigtorp",
+            "path": "https://github.com/rigtorp/ipc-bench",
+            "description": "Latency benchmarks of Unix IPC mechanisms",
+            "topics": [],
+            "language": "C",
+            "star": "205"
+        }
+    ]
+}

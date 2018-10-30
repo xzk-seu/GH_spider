@@ -1,0 +1,95 @@
+{
+    "daily_num": 215,
+    "repo": [
+        {
+            "name": "babyslam",
+            "owner": "karel1980",
+            "path": "https://github.com/karel1980/babyslam",
+            "description": "Program with similar functionality to babysmash",
+            "topics": [],
+            "language": "Python",
+            "star": "4"
+        },
+        {
+            "name": "fleet-rb",
+            "owner": "mmcgrana",
+            "path": "https://github.com/mmcgrana/fleet-rb",
+            "description": "Ruby client for FleetDB",
+            "topics": [],
+            "language": "Ruby",
+            "star": "4"
+        },
+        {
+            "name": "caicaicut",
+            "owner": "microcai",
+            "path": "https://github.com/microcai/caicaicut",
+            "description": "microcai\u5199\u7684\u622a\u5c4f\u7a0b\u5e8f",
+            "topics": [],
+            "language": "C++",
+            "star": "4"
+        },
+        {
+            "name": "fugu",
+            "owner": "eep",
+            "path": "https://github.com/eep/fugu",
+            "description": "A fork of the fugu Mac OS X SFTP client.",
+            "topics": [],
+            "language": "Objective-C",
+            "star": "4"
+        },
+        {
+            "name": "Simple-Blog-Sinatra",
+            "owner": "fbrubacher",
+            "path": "https://github.com/fbrubacher/Simple-Blog-Sinatra",
+            "description": "Blog made using Sinatra, Bundler, DM and other tools",
+            "topics": [],
+            "language": "Ruby",
+            "star": "4"
+        },
+        {
+            "name": "redis-memo",
+            "owner": "purcell",
+            "path": "https://github.com/purcell/redis-memo",
+            "description": "Memoize clojure functions using redis as an out-of-process store for cached results",
+            "topics": [],
+            "language": "Clojure",
+            "star": "4"
+        },
+        {
+            "name": "pykaboo",
+            "owner": "herrymon",
+            "path": "https://github.com/herrymon/pykaboo",
+            "description": "a tiny wsgi framework.",
+            "topics": [],
+            "language": "Python",
+            "star": "4"
+        },
+        {
+            "name": "geohex-php",
+            "owner": "magewhopper",
+            "path": "https://github.com/magewhopper/geohex-php",
+            "description": "porting of GeoHex to PHP",
+            "topics": [],
+            "language": "PHP",
+            "star": "3"
+        },
+        {
+            "name": "djangorecipe",
+            "owner": "stefanfoulis",
+            "path": "https://github.com/stefanfoulis/djangorecipe",
+            "description": "non official version of djangorecipe",
+            "topics": [],
+            "language": "Python",
+            "star": "3"
+        },
+        {
+            "name": "telescope-controller",
+            "owner": "substack",
+            "path": "https://github.com/substack/telescope-controller",
+            "description": "drive a telescope with nxt servos and gamepad control",
+            "topics": [],
+            "language": "Python",
+            "star": "3"
+        }
+    ]
+}

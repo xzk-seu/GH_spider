@@ -1,0 +1,113 @@
+{
+    "daily_num": 336,
+    "repo": [
+        {
+            "name": "sms-backup-plus",
+            "owner": "jberkel",
+            "path": "https://github.com/jberkel/sms-backup-plus",
+            "description": "Backup Android SMS, MMS and call log to Gmail / Gcal / IMAP",
+            "topics": [
+                "gmail-inbox",
+                "calendar",
+                "imap-server",
+                "java",
+                "restore",
+                "mms",
+                "sms-backup",
+                "android",
+                "sms",
+                "android-backup",
+                "automatic-backups"
+            ],
+            "language": "Java",
+            "star": "1.3k"
+        },
+        {
+            "name": "ripple",
+            "owner": "riak-ripple",
+            "path": "https://github.com/riak-ripple/ripple",
+            "description": "A rich Ruby modeling layer for Riak, Basho's distributed database",
+            "topics": [],
+            "language": "Ruby",
+            "star": "640"
+        },
+        {
+            "name": "django-form-designer",
+            "owner": "samluescher",
+            "path": "https://github.com/samluescher/django-form-designer",
+            "description": "A Django admin app with a GUI to create complex forms without any programming skills; complete with logging, validati\u2026",
+            "topics": [],
+            "language": "Python",
+            "star": "288"
+        },
+        {
+            "name": "RubyTree",
+            "owner": "evolve75",
+            "path": "https://github.com/evolve75/RubyTree",
+            "description": "A General Purpose Tree Data Structure for Ruby",
+            "topics": [
+                "ruby",
+                "tree",
+                "traversal",
+                "data-structures",
+                "rt-gem"
+            ],
+            "language": "Ruby",
+            "star": "258"
+        },
+        {
+            "name": "aprsdroid",
+            "owner": "ge0rg",
+            "path": "https://github.com/ge0rg/aprsdroid",
+            "description": "APRSdroid - Android APRS reporting tool",
+            "topics": [],
+            "language": "Scala",
+            "star": "226"
+        },
+        {
+            "name": "gomo",
+            "owner": "keesj",
+            "path": "https://github.com/keesj/gomo",
+            "description": "Wiki pages about Android internals",
+            "topics": [],
+            "language": null,
+            "star": "221"
+        },
+        {
+            "name": "navvy",
+            "owner": "jeffkreeftmeijer",
+            "path": "https://github.com/jeffkreeftmeijer/navvy",
+            "description": "Simple Ruby background job processor inspired by delayed_job, but aiming for database agnosticism.",
+            "topics": [],
+            "language": "Ruby",
+            "star": "221"
+        },
+        {
+            "name": "Mew",
+            "owner": "kazu-yamamoto",
+            "path": "https://github.com/kazu-yamamoto/Mew",
+            "description": "Messaging in the Emacs World",
+            "topics": [],
+            "language": "Emacs Lisp",
+            "star": "142"
+        },
+        {
+            "name": "mediaboxAdvanced",
+            "owner": "iaian7",
+            "path": "https://github.com/iaian7/mediaboxAdvanced",
+            "description": "mediabox displays flash, video, audio, & html content in a modal dialog. Based on Slimbox and the Mootools javascript\u2026",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "86"
+        },
+        {
+            "name": "jquery-message-queuing",
+            "owner": "cowboy",
+            "path": "https://github.com/cowboy/jquery-message-queuing",
+            "description": "jQuery Message Queuing: Get all your JavaScript ducks in a row",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "61"
+        }
+    ]
+}

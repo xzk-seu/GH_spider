@@ -1,0 +1,95 @@
+{
+    "daily_num": 215,
+    "repo": [
+        {
+            "name": "rolopress-core",
+            "owner": "sudar",
+            "path": "https://github.com/sudar/rolopress-core",
+            "description": "Open Source Contact Manager built on top of WordPress. Rolopress core theme",
+            "topics": [],
+            "language": "PHP",
+            "star": "15"
+        },
+        {
+            "name": "skypy",
+            "owner": "prabhu",
+            "path": "https://github.com/prabhu/skypy",
+            "description": "Python api for Sky TV (UK)",
+            "topics": [],
+            "language": "Python",
+            "star": "12"
+        },
+        {
+            "name": "fusegrid-sdk",
+            "owner": "Fusegrid",
+            "path": "https://github.com/Fusegrid/fusegrid-sdk",
+            "description": "FusegridSDK provides a fast, lightweight, cross platform server deployment to develop your CFML applications. Develop\u2026",
+            "topics": [],
+            "language": "ColdFusion",
+            "star": "11"
+        },
+        {
+            "name": "cppdepends",
+            "owner": "nflath",
+            "path": "https://github.com/nflath/cppdepends",
+            "description": "Dependency graph generator for C++ code.",
+            "topics": [],
+            "language": "Python",
+            "star": "11"
+        },
+        {
+            "name": "selfdot.vim",
+            "owner": "narfdotpl",
+            "path": "https://github.com/narfdotpl/selfdot.vim",
+            "description": "type \"self.\" by pressing \".\"",
+            "topics": [],
+            "language": "Vim script",
+            "star": "10"
+        },
+        {
+            "name": "data-inttrie",
+            "owner": "luqui",
+            "path": "https://github.com/luqui/data-inttrie",
+            "description": "A simple, lazy trie of integers",
+            "topics": [],
+            "language": "Haskell",
+            "star": "9"
+        },
+        {
+            "name": "rolopress-default",
+            "owner": "sudar",
+            "path": "https://github.com/sudar/rolopress-default",
+            "description": "Open Source Contact Manager built on top of WordPress. Rolopress default theme",
+            "topics": [],
+            "language": "PHP",
+            "star": "8"
+        },
+        {
+            "name": "android-sasl",
+            "owner": "koterpillar",
+            "path": "https://github.com/koterpillar/android-sasl",
+            "description": "SASL stack for Android",
+            "topics": [],
+            "language": "Java",
+            "star": "8"
+        },
+        {
+            "name": "ecompages-cm",
+            "owner": "garalo",
+            "path": "https://github.com/garalo/ecompages-cm",
+            "description": "Fork of Ecompages with rails2.1+ support, paypal integration and a few other enhancements",
+            "topics": [],
+            "language": "Ruby",
+            "star": "7"
+        },
+        {
+            "name": "imageshack",
+            "owner": "carlosbrando",
+            "path": "https://github.com/carlosbrando/imageshack",
+            "description": "This plugin basically upload an image to ImageShack and stores the url in the database.",
+            "topics": [],
+            "language": "Ruby",
+            "star": "7"
+        }
+    ]
+}

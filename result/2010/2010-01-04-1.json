@@ -1,0 +1,107 @@
+{
+    "daily_num": 324,
+    "repo": [
+        {
+            "name": "symfony",
+            "owner": "symfony",
+            "path": "https://github.com/symfony/symfony",
+            "description": "The Symfony PHP framework",
+            "topics": [
+                "php-framework",
+                "php",
+                "symfony",
+                "framework",
+                "bundle",
+                "symfony-bundle",
+                "psr-11",
+                "psr-3",
+                "psr-6",
+                "psr-16",
+                "psr-13"
+            ],
+            "language": "PHP",
+            "star": "18.9k"
+        },
+        {
+            "name": "sbt-idea",
+            "owner": "mpeltonen",
+            "path": "https://github.com/mpeltonen/sbt-idea",
+            "description": "A simple-build-tool (sbt) plugin/processor for creating IntelliJ IDEA project files",
+            "topics": [],
+            "language": "Scala",
+            "star": "1.1k"
+        },
+        {
+            "name": "android-mapviewballoons",
+            "owner": "jgilfelt",
+            "path": "https://github.com/jgilfelt/android-mapviewballoons",
+            "description": "[DEPRECATED] Simple information balloon annotation for Android MapView",
+            "topics": [],
+            "language": "Java",
+            "star": "872"
+        },
+        {
+            "name": "chunky_png",
+            "owner": "wvanbergen",
+            "path": "https://github.com/wvanbergen/chunky_png",
+            "description": "Read/write access to PNG images in pure Ruby.",
+            "topics": [],
+            "language": "Ruby",
+            "star": "871"
+        },
+        {
+            "name": "axiom",
+            "owner": "dkubb",
+            "path": "https://github.com/dkubb/axiom",
+            "description": "Simplifies querying of structured data using relational algebra",
+            "topics": [],
+            "language": "Ruby",
+            "star": "448"
+        },
+        {
+            "name": "Phake",
+            "owner": "mlively",
+            "path": "https://github.com/mlively/Phake",
+            "description": "PHP Mocking Framework",
+            "topics": [],
+            "language": "PHP",
+            "star": "434"
+        },
+        {
+            "name": "vrpn",
+            "owner": "vrpn",
+            "path": "https://github.com/vrpn/vrpn",
+            "description": "Virtual Reality Peripheral Network - Official GitHub Repository",
+            "topics": [],
+            "language": "C",
+            "star": "229"
+        },
+        {
+            "name": "ez-css",
+            "owner": "thierryk",
+            "path": "https://github.com/thierryk/ez-css",
+            "description": "Create complex layouts with ez-css, a light, easy to use, CSS framework.",
+            "topics": [],
+            "language": "CSS",
+            "star": "185"
+        },
+        {
+            "name": "googlebookdownloader",
+            "owner": "hac",
+            "path": "https://github.com/hac/googlebookdownloader",
+            "description": "Google Book Downloader for OS X \u2014 Download Google Books in PDF format.",
+            "topics": [],
+            "language": "Objective-C",
+            "star": "104"
+        },
+        {
+            "name": "console",
+            "owner": "bozho",
+            "path": "https://github.com/bozho/console",
+            "description": "Public Console repo",
+            "topics": [],
+            "language": "C++",
+            "star": "96"
+        }
+    ]
+}

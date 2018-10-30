@@ -1,0 +1,95 @@
+{
+    "daily_num": 215,
+    "repo": [
+        {
+            "name": "vwc-tools",
+            "owner": "schmx",
+            "path": "https://github.com/schmx/vwc-tools",
+            "description": "A few small tools for VWC",
+            "topics": [],
+            "language": "Forth",
+            "star": "2"
+        },
+        {
+            "name": "bacon-wrapped-dates",
+            "owner": "sl4mmy",
+            "path": "https://github.com/sl4mmy/bacon-wrapped-dates",
+            "description": "Delicious date library for Java",
+            "topics": [],
+            "language": "Java",
+            "star": "2"
+        },
+        {
+            "name": "App-OpenStreetMapIs-Web",
+            "owner": "avar",
+            "path": "https://github.com/avar/App-OpenStreetMapIs-Web",
+            "description": "The openstreetmap.is website",
+            "topics": [],
+            "language": "Perl",
+            "star": "2"
+        },
+        {
+            "name": "arduino-car-logger",
+            "owner": "lekonna",
+            "path": "https://github.com/lekonna/arduino-car-logger",
+            "description": "Arduino car data logger",
+            "topics": [],
+            "language": "Java",
+            "star": "2"
+        },
+        {
+            "name": "solar-logger-sqlite",
+            "owner": "mbarchfe",
+            "path": "https://github.com/mbarchfe/solar-logger-sqlite",
+            "description": "A branch of the solar-logger project which writes measurements from inverters and a Sunmeter into an SQlite database",
+            "topics": [],
+            "language": "C",
+            "star": "2"
+        },
+        {
+            "name": "MongoBlog",
+            "owner": "mich181189",
+            "path": "https://github.com/mich181189/MongoBlog",
+            "description": "A simple blog engine based on Mongo,written in C++ (though a PHP version may surface at some point)",
+            "topics": [],
+            "language": "C++",
+            "star": "2"
+        },
+        {
+            "name": "hsm",
+            "owner": "mancereus",
+            "path": "https://github.com/mancereus/hsm",
+            "description": "compute haplotype sharing",
+            "topics": [],
+            "language": "Java",
+            "star": "2"
+        },
+        {
+            "name": "dorian",
+            "owner": "blundellc",
+            "path": "https://github.com/blundellc/dorian",
+            "description": "a greylisting SPF filter for postfix",
+            "topics": [],
+            "language": "C",
+            "star": "2"
+        },
+        {
+            "name": "acl",
+            "owner": "philips",
+            "path": "https://github.com/philips/acl",
+            "description": "Commands for Manipulating POSIX Access Control Lists",
+            "topics": [],
+            "language": "C",
+            "star": "2"
+        },
+        {
+            "name": "sftemplating",
+            "owner": "praxxis",
+            "path": "https://github.com/praxxis/sftemplating",
+            "description": "A Kohana v3 module for using the Symfony Templating component.",
+            "topics": [],
+            "language": null,
+            "star": "2"
+        }
+    ]
+}

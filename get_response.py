@@ -8,37 +8,47 @@ import json
 _HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.'
                           '0.3497.100 Safari/537.36'}
 
-proxyHost = "http-proxy-sg2.dobel.cn"
-proxyPort = "9180"
-proxyUser = "ZYYTHTT1"
-proxyPass = "6tEQ26bA9"
-
-# proxyHost = "http-dyn.abuyun.com"
-# proxyPort = "9020"
-# proxyUser = "HE67H8188DLDT85D"
-# proxyPass = "4145553046D4B3BB"
-# proxyUser = "H8461Q488M583V1D"
-# proxyPass = "D90F780427E4D69E"
-# proxyUser = "HX55696WE9Q2XJ4D"
-# proxyPass = "21F210078BAEA359"
-
-proxyHost = "proxy.crawlera.com"
-proxyPort = "8010"
-proxyAuth = "78d4b6f49900465f881f63b4b1de4029:"
-proxyMeta = {"https": "https://{}@{}:{}/".format(proxyAuth, proxyHost, proxyPort),
-             "http": "http://{}@{}:{}/".format(proxyAuth, proxyHost, proxyPort)}
+# proxyHost = "http-proxy-sg2.dobel.cn"
+# proxyPort = "9180"
+# proxyUser = "ZYYTHTT1"
+# proxyPass = "6tEQ26bA9"
+# proxyMeta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
+#     "host": proxyHost,
+#     "port": proxyPort,
+#     "user": proxyUser,
+#     "pass": proxyPass,
+# }
+# _PROXIES = {
+#     "http": proxyMeta,
+#     "https": proxyMeta,
+# }
 
 
-proxyMeta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
-    "host": proxyHost,
-    "port": proxyPort,
-    "user": proxyUser,
-    "pass": proxyPass,
-}
-_PROXIES = {
-    "http": proxyMeta,
-    "https": proxyMeta,
-}
+def proxy_cfg(proxy_id):
+    proxy = None
+    with open('proxy.json', 'r') as fr:
+        proxy_list = json.load(fr)
+    if proxy_id in range(len(proxy_list)):
+        proxy = proxy_list[proxy_id]
+        proxyHost = proxy['proxyHost']
+        proxyPort = proxy['proxyPort']
+        proxyUser = proxy['proxyUser']
+        proxyPass = proxy['proxyPass']
+        logger.info('proxy: %s is chosen!\n' % proxyUser)
+        proxyMeta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
+            "host": proxyHost,
+            "port": proxyPort,
+            "user": proxyUser,
+            "pass": proxyPass,
+        }
+        proxy = {
+            "http": proxyMeta,
+            "https": proxyMeta,
+        }
+    return proxy
+
+
+_SESSION = requests.session()
 
 
 def page_parser(resp):
@@ -93,15 +103,15 @@ def repo_parser(raw_repo):
     return repo
 
 
-def get_response(url, param=None):
+def get_response(url, param=None, proxy=None):
     max_try = 0
     r = None
     while max_try <= 5:
         max_try += 1
         try:
-            r = requests.get(url=url,
+            r = _SESSION.get(url=url,
                              params=param,
-                             proxies=_PROXIES,
+                             proxies=proxy,
                              headers=_HEADERS)
             r.raise_for_status()
             r.encoding = r.apparent_encoding

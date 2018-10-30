@@ -1,0 +1,14 @@
+[
+    {
+        "proxyHost": "http-proxy-sg2.dobel.cn",
+        "proxyPort": "9180",
+        "proxyUser": "ZYYTHTT1",
+        "proxyPass": "6tEQ26bA9"
+    },
+    {
+        "proxyHost": "http-dyn.abuyun.com",
+        "proxyPort": "9020",
+        "proxyUser": "HE67H8188DLDT85D",
+        "proxyPass": "4145553046D4B3BB"
+    }
+]
