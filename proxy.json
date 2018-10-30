@@ -10,5 +10,23 @@
         "proxyPort": "9020",
         "proxyUser": "HE67H8188DLDT85D",
         "proxyPass": "4145553046D4B3BB"
+    },
+    {
+        "proxyHost": "http-dyn.abuyun.com",
+        "proxyPort": "9020",
+        "proxyUser": "H8461Q488M583V1D",
+        "proxyPass": "D90F780427E4D69E"
+    },
+    {
+        "proxyHost": "http-dyn.abuyun.com",
+        "proxyPort": "9020",
+        "proxyUser": "HX5596WE9Q2XJ4D",
+        "proxyPass": "21F210078BAEA359"
+    },
+    {
+        "proxyHost": "http-dyn.abuyun.com",
+        "proxyPort": "9020",
+        "proxyUser": "HX0N9NRC2F5394LD",
+        "proxyPass": "74E67958CBF14561"
     }
 ]

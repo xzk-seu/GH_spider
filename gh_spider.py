@@ -57,7 +57,7 @@ def page_spider(date_str, page, proxy):
     file_name = os.path.join(path, '%s-%d.json' % (date_str, page))
     with open(file_name, 'w') as fw:
         json.dump(page_dict, fw, indent=4)
-        logger.info('%s:%d is done!' % (date_str, page))
+        logger.info('%s:%d is done!!!!!!!!!!!!' % (date_str, page))
         return page_dict['daily_num']
 
 
@@ -74,6 +74,25 @@ def daily_spider(date_str, pool, proxy):
         pool.apply_async(page_spider, args=(date_str, page, proxy))
 
 
+def zero_day():
+    r = ['2008-01-01',
+         '2008-01-02',
+         '2008-01-03',
+         '2008-01-04',
+         '2008-01-05',
+         '2008-01-06',
+         '2008-01-07',
+         '2008-01-08',
+         '2008-01-09',
+         '2008-01-10',
+         '2008-01-11',
+         '2008-01-16',
+         '2008-01-24',
+         '2008-01-26',
+         '2008-01-20']
+    return r
+
+
 if __name__ == '__main__':
     proxy_id = int(input('please input proxy id: '))
     proxy = proxy_cfg(proxy_id)
@@ -84,11 +103,13 @@ if __name__ == '__main__':
     day = begin
     for d in range((end-begin).days+1):
         d_str = day.isoformat()
+        day += day.resolution
+        if d_str in zero_day():
+            continue
         daily_spider(d_str, p, proxy)
         # res = pool.apply_async(search_page_parse.get_daily_reponum, args=(d_str,))
         # result_list.append([d_str, res])
         logger.info('%s task begin!' % d_str)
-        day += day.resolution
     p.close()
     p.join()
 
