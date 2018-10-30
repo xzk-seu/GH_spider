@@ -10,8 +10,8 @@ _HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit
 
 proxyHost = "http-proxy-sg2.dobel.cn"
 proxyPort = "9180"
-proxyUser = "ZYYTHTTTEST1"
-proxyPass = "Y63b1qDf"
+proxyUser = "ZYYTHTT1"
+proxyPass = "6tEQ26bA9"
 proxyMeta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
     "host": proxyHost,
     "port": proxyPort,
@@ -24,9 +24,13 @@ _PROXIES = {
 }
 
 
-def page_parser(page):
+def page_parser(resp):
     result_list = list()
-    soup = BeautifulSoup(page.text, 'lxml')
+    try:
+        soup = BeautifulSoup(resp.text, 'lxml')
+    except AttributeError:
+        logger.error('resp is None!')
+        return
     repo_list = soup.find('ul', 'repo-list').contents
     daily_num = soup.find_all('h3')[1].string.strip('\n repository results').replace(',', '')
     daily_num = int(daily_num)
@@ -40,7 +44,7 @@ def page_parser(page):
 def repo_parser(raw_repo):
     t1 = raw_repo.contents[1]
     repo_item = t1.h3.a
-    description = t1.p.string.strip()
+    description = t1.p.contents[0].string.strip()
     repo_json = repo_item['data-hydro-click']
     repo_dict = json.loads(repo_json)
     repo_url = repo_dict['payload']['result']['url']
@@ -53,10 +57,14 @@ def repo_parser(raw_repo):
     if topics and len(topics) > 0:
         for i in range(1, len(topics), 2):
             topic_list.append(topics.contents[i].string.strip())
-    t3 = raw_repo.contents[3] # 语言和star
-    language = t3.contents[1].contents[2].strip()
+    t3 = raw_repo.contents[3]
+    # 语言和star
+    language = None
+    try:
+        language = t3.contents[1].contents[2].strip()
+    except IndexError:
+        pass
     star = t3.contents[3].contents[1].contents[2].strip()
-
     repo = {'name': repo_name,
             'owner': repo_owner,
             'path': repo_url,
@@ -76,7 +84,7 @@ def get_response(url, param=None):
         try:
             r = requests.get(url=url,
                              params=param,
-                             # proxies=_PROXIES,
+                             proxies=_PROXIES,
                              headers=_HEADERS)
             r.raise_for_status()
             r.encoding = r.apparent_encoding
@@ -90,3 +98,19 @@ def get_response(url, param=None):
     if not r:
         return None
     return r
+
+
+if __name__ == '__main__':
+    SEARCH_URL = 'https://github.com/search'
+    page = 1
+    date_str = '2009-01-03'
+    p = {'p': page,
+         'q': 'created:' + date_str,
+         'type': 'Repositories',
+         's': 'stars',
+         'o': 'desc'}
+    r = get_response(SEARCH_URL, p)
+    d = page_parser(r)
+    repo = d['repo']
+    for i in d['repo']:
+        print(i['language'])
