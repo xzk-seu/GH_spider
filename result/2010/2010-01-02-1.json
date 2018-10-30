@@ -1,0 +1,105 @@
+{
+    "daily_num": 257,
+    "repo": [
+        {
+            "name": "hhvm",
+            "owner": "facebook",
+            "path": "https://github.com/facebook/hhvm",
+            "description": "A virtual machine for executing programs written in Hack.",
+            "topics": [
+                "php",
+                "hack",
+                "hhvm",
+                "hacklang"
+            ],
+            "language": "C++",
+            "star": "15.6k"
+        },
+        {
+            "name": "SoundManager2",
+            "owner": "scottschiller",
+            "path": "https://github.com/scottschiller/SoundManager2",
+            "description": "A JavaScript Sound API supporting MP3, MPEG4 and HTML5 audio + RTMP, providing reliable cross-browser/platform audio \u2026",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "4.3k"
+        },
+        {
+            "name": "CleverAlgorithms",
+            "owner": "jbrownlee",
+            "path": "https://github.com/jbrownlee/CleverAlgorithms",
+            "description": "An open source book that describes a large number of algorithmic techniques from the the fields of Biologically Inspi\u2026",
+            "topics": [],
+            "language": "TeX",
+            "star": "1.5k"
+        },
+        {
+            "name": "packer",
+            "owner": "keenerd",
+            "path": "https://github.com/keenerd/packer",
+            "description": "Bash wrapper for pacman and AUR.",
+            "topics": [],
+            "language": "Shell",
+            "star": "265"
+        },
+        {
+            "name": "rocket",
+            "owner": "rocket",
+            "path": "https://github.com/rocket/rocket",
+            "description": "Rocket",
+            "topics": [
+                "rocket",
+                "c-plus-plus",
+                "c",
+                "demoscene"
+            ],
+            "language": "C++",
+            "star": "216"
+        },
+        {
+            "name": "django-registration",
+            "owner": "nathanborror",
+            "path": "https://github.com/nathanborror/django-registration",
+            "description": "Unofficial mirror of django-registration with templates!",
+            "topics": [],
+            "language": "Python",
+            "star": "138"
+        },
+        {
+            "name": "CappuccinoResource",
+            "owner": "jerodsanto",
+            "path": "https://github.com/jerodsanto/CappuccinoResource",
+            "description": "Cappuccino on Rails",
+            "topics": [],
+            "language": "Objective-J",
+            "star": "127"
+        },
+        {
+            "name": "clodiuno",
+            "owner": "nakkaya",
+            "path": "https://github.com/nakkaya/clodiuno",
+            "description": "Clojure API for the firmata protocol.",
+            "topics": [],
+            "language": "Clojure",
+            "star": "127"
+        },
+        {
+            "name": "chromeEyeDropper",
+            "owner": "kepi",
+            "path": "https://github.com/kepi/chromeEyeDropper",
+            "description": "Eye Dropper and Color picker extension for Google Chrome",
+            "topics": [],
+            "language": "CSS",
+            "star": "126"
+        },
+        {
+            "name": "LibComponentLogging-Core",
+            "owner": "aharren",
+            "path": "https://github.com/aharren/LibComponentLogging-Core",
+            "description": "A small logging library for Objective-C applications (Mac OS X and iPhone OS/iOS) which provides conditional logging \u2026",
+            "topics": [],
+            "language": "C",
+            "star": "113"
+        }
+    ]
+}

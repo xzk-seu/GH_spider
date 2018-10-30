@@ -1,0 +1,101 @@
+{
+    "daily_num": 215,
+    "repo": [
+        {
+            "name": "scurve",
+            "owner": "cortesi",
+            "path": "https://github.com/cortesi/scurve",
+            "description": "A library for drawing space-filling curves like the Hilbert Curve.",
+            "topics": [],
+            "language": "Python",
+            "star": "340"
+        },
+        {
+            "name": "node-xml",
+            "owner": "robrighter",
+            "path": "https://github.com/robrighter/node-xml",
+            "description": "An xml parser for node.js written in javascript.",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "201"
+        },
+        {
+            "name": "pf-kernel",
+            "owner": "pfactum",
+            "path": "https://github.com/pfactum/pf-kernel",
+            "description": "The project has been moved to GitLab",
+            "topics": [],
+            "language": "C",
+            "star": "149"
+        },
+        {
+            "name": "IrcDotNet",
+            "owner": "IrcDotNet",
+            "path": "https://github.com/IrcDotNet/IrcDotNet",
+            "description": "IRC.NET is a complete IRC (Internet Relay Chat) client library for .NET.",
+            "topics": [
+                "c-sharp",
+                "internet-relay-chat",
+                "irc",
+                "protocol",
+                "dot-net"
+            ],
+            "language": "C#",
+            "star": "135"
+        },
+        {
+            "name": "configliere",
+            "owner": "infochimps-labs",
+            "path": "https://github.com/infochimps-labs/configliere",
+            "description": "Wise, discreet configuration for ruby scripts: integrate config files, environment variables and command line with no\u2026",
+            "topics": [],
+            "language": "Ruby",
+            "star": "126"
+        },
+        {
+            "name": "Play-Econometrics-with-R",
+            "owner": "cloudly",
+            "path": "https://github.com/cloudly/Play-Econometrics-with-R",
+            "description": "a brochure about \"Play Econometrics with R\"",
+            "topics": [],
+            "language": "R",
+            "star": "94"
+        },
+        {
+            "name": "kaztools",
+            "owner": "kazuho",
+            "path": "https://github.com/kazuho/kaztools",
+            "description": "shellscripts and utilities for myself",
+            "topics": [],
+            "language": "Perl",
+            "star": "85"
+        },
+        {
+            "name": "clevernote",
+            "owner": "dvj",
+            "path": "https://github.com/dvj/clevernote",
+            "description": "A command line interface to Evernote",
+            "topics": [],
+            "language": "Python",
+            "star": "44"
+        },
+        {
+            "name": "google_apps_login",
+            "owner": "tobi",
+            "path": "https://github.com/tobi/google_apps_login",
+            "description": "Allows you to protect controllers by requiring login to a Google Apps for domains account. Great SSO solution for sma\u2026",
+            "topics": [],
+            "language": "Ruby",
+            "star": "42"
+        },
+        {
+            "name": "autotrader",
+            "owner": "terryh",
+            "path": "https://github.com/terryh/autotrader",
+            "description": "A set of script for you to trade any financial product in market",
+            "topics": [],
+            "language": "Python",
+            "star": "36"
+        }
+    ]
+}

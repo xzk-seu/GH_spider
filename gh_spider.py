@@ -1,4 +1,4 @@
-from get_response import get_response, page_parser
+from get_response import get_response, page_parser, proxy_cfg
 import json
 import os
 from datetime import date
@@ -24,11 +24,11 @@ def get_date_list(y):
     return result_list
 
 
-def page_spider(date_str, page):
+def page_spider(date_str, page, proxy):
     res_path = os.path.join(os.getcwd(), 'result', date_str.split('-')[0], '%s-%d.json' % (date_str, page))
     if os.path.exists(res_path):
         with open(res_path, 'r') as fr:
-            logger('%s-%d.json is existing!' % (date_str, page))
+            logger.info('%s-%d.json is existing!' % (date_str, page))
             return json.load(fr)['daily_num']
     p = {'p': page,
          'q': 'created:'+date_str,
@@ -40,7 +40,7 @@ def page_spider(date_str, page):
     # p['type'] = 'Repositories'
     # p['s'] = 'stars'
     # p['o'] = 'desc'
-    r = get_response(SEARCH_URL, p)
+    r = get_response(SEARCH_URL, p, proxy)
     page_dict = dict()
     try:
         page_dict = page_parser(r)
@@ -61,8 +61,8 @@ def page_spider(date_str, page):
         return page_dict['daily_num']
 
 
-def daily_spider(date_str, pool):
-    daily_num = page_spider(date_str, 1)
+def daily_spider(date_str, pool, proxy):
+    daily_num = page_spider(date_str, 1, proxy)
     if not isinstance(daily_num, int):
         return
     if daily_num > 900:
@@ -71,18 +71,20 @@ def daily_spider(date_str, pool):
         remain_page = daily_num//10
     for i in range(remain_page):
         page = i+2
-        pool.apply_async(page_spider, args=(date_str, page))
+        pool.apply_async(page_spider, args=(date_str, page, proxy))
 
 
 if __name__ == '__main__':
+    proxy_id = int(input('please input proxy id: '))
+    proxy = proxy_cfg(proxy_id)
     y = int(input('input year: '))
-    p = Pool(8)
+    p = Pool(1)
     begin = date(y, 1, 1)
     end = date(y, 12, 31)
     day = begin
     for d in range((end-begin).days+1):
         d_str = day.isoformat()
-        daily_spider(d_str, p)
+        daily_spider(d_str, p, proxy)
         # res = pool.apply_async(search_page_parse.get_daily_reponum, args=(d_str,))
         # result_list.append([d_str, res])
         logger.info('%s task begin!' % d_str)

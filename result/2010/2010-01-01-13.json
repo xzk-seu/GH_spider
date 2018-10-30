@@ -1,0 +1,95 @@
+{
+    "daily_num": 215,
+    "repo": [
+        {
+            "name": "met.a",
+            "owner": "kwolk",
+            "path": "https://github.com/kwolk/met.a",
+            "description": "Download imagery with website info embedded into its metadata",
+            "topics": [],
+            "language": null,
+            "star": "1"
+        },
+        {
+            "name": "StockWatcher",
+            "owner": "dburger",
+            "path": "https://github.com/dburger/StockWatcher",
+            "description": "Google StockWatcher tutorial augmented with some UiBinder demos and client-server communication techniques.",
+            "topics": [],
+            "language": "Java",
+            "star": "1"
+        },
+        {
+            "name": "clojure-samples",
+            "owner": "sbendiola",
+            "path": "https://github.com/sbendiola/clojure-samples",
+            "description": "Updated",
+            "topics": [],
+            "language": null,
+            "star": "1"
+        },
+        {
+            "name": "sphinxsnow",
+            "owner": "araddon",
+            "path": "https://github.com/araddon/sphinxsnow",
+            "description": "A theme for Sphinx Documentation",
+            "topics": [],
+            "language": null,
+            "star": "1"
+        },
+        {
+            "name": "formfu_jquery_enhancer",
+            "owner": "wki",
+            "path": "https://github.com/wki/formfu_jquery_enhancer",
+            "description": "progressively enhance HTML::FormFu generated forms",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "1"
+        },
+        {
+            "name": "acts_as_navigated",
+            "owner": "bopbi",
+            "path": "https://github.com/bopbi/acts_as_navigated",
+            "description": "Rails Plugin to Navigate / Find the logical higer or lower item of a result set by id, using searchlogic",
+            "topics": [],
+            "language": "Ruby",
+            "star": "1"
+        },
+        {
+            "name": "opRichTextareaSyntaxHighlightPlugin",
+            "owner": "balibali",
+            "path": "https://github.com/balibali/opRichTextareaSyntaxHighlightPlugin",
+            "description": "A code syntax highlight plugin for OpenPNE3",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "1"
+        },
+        {
+            "name": "lua_test",
+            "owner": "toshi3221",
+            "path": "https://github.com/toshi3221/lua_test",
+            "description": "Updated",
+            "topics": [],
+            "language": "C++",
+            "star": "1"
+        },
+        {
+            "name": "gps",
+            "owner": "antonpiatek",
+            "path": "https://github.com/antonpiatek/gps",
+            "description": "A collection of scripts related to my GPS (Garmin eTrex H)",
+            "topics": [],
+            "language": "Perl",
+            "star": "1"
+        },
+        {
+            "name": "beam",
+            "owner": "hedgehog",
+            "path": "https://github.com/hedgehog/beam",
+            "description": "Watch this space",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "1"
+        }
+    ]
+}

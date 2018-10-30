@@ -1,0 +1,95 @@
+{
+    "daily_num": 215,
+    "repo": [
+        {
+            "name": "dual-calculus",
+            "owner": "batterseapower",
+            "path": "https://github.com/batterseapower/dual-calculus",
+            "description": "An implementation of the dual calculus in Haskell",
+            "topics": [],
+            "language": "Haskell",
+            "star": "2"
+        },
+        {
+            "name": "test",
+            "owner": "firewood",
+            "path": "https://github.com/firewood/test",
+            "description": "temporary code",
+            "topics": [],
+            "language": "C++",
+            "star": "2"
+        },
+        {
+            "name": "dotfiles",
+            "owner": "CraigCottingham",
+            "path": "https://github.com/CraigCottingham/dotfiles",
+            "description": "Backup of my local dotfiles.",
+            "topics": [],
+            "language": "Shell",
+            "star": "2"
+        },
+        {
+            "name": "ResearchWebsite",
+            "owner": "joshuaeckroth",
+            "path": "https://github.com/joshuaeckroth/ResearchWebsite",
+            "description": "Research website modules and themes",
+            "topics": [],
+            "language": "PHP",
+            "star": "1"
+        },
+        {
+            "name": "Jolomea",
+            "owner": "antoine-tissier",
+            "path": "https://github.com/antoine-tissier/Jolomea",
+            "description": "Jolomea is a component intented to make the localisation of a Joomla web site easier.",
+            "topics": [],
+            "language": "PHP",
+            "star": "1"
+        },
+        {
+            "name": "bdog-closure",
+            "owner": "blackdog66",
+            "path": "https://github.com/blackdog66/bdog-closure",
+            "description": "haxe wrappers for Google Closure - unmaintained",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "1"
+        },
+        {
+            "name": "playpen",
+            "owner": "jeyrb",
+            "path": "https://github.com/jeyrb/playpen",
+            "description": "general area for new code",
+            "topics": [],
+            "language": "Objective-C",
+            "star": "1"
+        },
+        {
+            "name": "Zeya",
+            "owner": "lifeeth",
+            "path": "https://github.com/lifeeth/Zeya",
+            "description": "Bring your music anywhere",
+            "topics": [],
+            "language": "Python",
+            "star": "1"
+        },
+        {
+            "name": "gj2010",
+            "owner": "dasikin",
+            "path": "https://github.com/dasikin/gj2010",
+            "description": "Updated",
+            "topics": [],
+            "language": null,
+            "star": "1"
+        },
+        {
+            "name": "RegExp",
+            "owner": "sheepmaster",
+            "path": "https://github.com/sheepmaster/RegExp",
+            "description": "A regular expression matcher based on symbolic differentiation",
+            "topics": [],
+            "language": "Java",
+            "star": "1"
+        }
+    ]
+}

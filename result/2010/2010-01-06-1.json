@@ -1,0 +1,120 @@
+{
+    "daily_num": 397,
+    "repo": [
+        {
+            "name": "angular.js",
+            "owner": "angular",
+            "path": "https://github.com/angular/angular.js",
+            "description": "AngularJS - HTML enhanced for web apps!",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "59.2k"
+        },
+        {
+            "name": "mRemoteNG",
+            "owner": "mRemoteNG",
+            "path": "https://github.com/mRemoteNG/mRemoteNG",
+            "description": "mRemoteNG is the next generation of mRemote, open source, tabbed, multi-protocol, remote connections manager.",
+            "topics": [
+                "mremoteng",
+                "ssh",
+                "rdp",
+                "remote-desktop",
+                "remote-access"
+            ],
+            "language": "C#",
+            "star": "2.5k"
+        },
+        {
+            "name": "vows",
+            "owner": "vowsjs",
+            "path": "https://github.com/vowsjs/vows",
+            "description": "Asynchronous BDD & continuous testing for node.js",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "1.6k"
+        },
+        {
+            "name": "TDBadgedCell",
+            "owner": "tmdvs",
+            "path": "https://github.com/tmdvs/TDBadgedCell",
+            "description": "TDBadgedCell is a table view cell class that adds a badge, similar to the badges in Apple's own apps",
+            "topics": [
+                "swift",
+                "ios",
+                "ui",
+                "uitableview",
+                "uitableviewcell",
+                "badge",
+                "tableview",
+                "tableviewcell"
+            ],
+            "language": "Swift",
+            "star": "1.4k"
+        },
+        {
+            "name": "Taipei-Torrent",
+            "owner": "jackpal",
+            "path": "https://github.com/jackpal/Taipei-Torrent",
+            "description": "A(nother) Bittorrent client written in the go programming language",
+            "topics": [],
+            "language": "Go",
+            "star": "681"
+        },
+        {
+            "name": "Eagle-Libraries",
+            "owner": "chiengineer",
+            "path": "https://github.com/chiengineer/Eagle-Libraries",
+            "description": "Eagle PCB Parts Libraries",
+            "topics": [],
+            "language": null,
+            "star": "558"
+        },
+        {
+            "name": "ccache",
+            "owner": "ccache",
+            "path": "https://github.com/ccache/ccache",
+            "description": "ccache \u2013 a fast compiler cache",
+            "topics": [
+                "c",
+                "ccache",
+                "c-plus-plus",
+                "cplusplus",
+                "compiler",
+                "cpp",
+                "cache",
+                "gcc",
+                "clang"
+            ],
+            "language": "C",
+            "star": "479"
+        },
+        {
+            "name": "Swiftlet",
+            "owner": "AliasIO",
+            "path": "https://github.com/AliasIO/Swiftlet",
+            "description": "Quite possibly the smallest MVC framework you'll ever use.",
+            "topics": [],
+            "language": "PHP",
+            "star": "404"
+        },
+        {
+            "name": "bootstrap-scheme",
+            "owner": "petermichaux",
+            "path": "https://github.com/petermichaux/bootstrap-scheme",
+            "description": "A quick and very dirty Scheme interpereter.",
+            "topics": [],
+            "language": "C",
+            "star": "262"
+        },
+        {
+            "name": "postgres-old-soon-decommissioned",
+            "owner": "postgres",
+            "path": "https://github.com/postgres/postgres-old-soon-decommissioned",
+            "description": "Mirror of the old PostgreSQL cvs repository. This will be decommissioned soon! PostgreSQL is now using git, and there\u2026",
+            "topics": [],
+            "language": "C",
+            "star": "133"
+        }
+    ]
+}

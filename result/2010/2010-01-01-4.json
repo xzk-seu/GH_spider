@@ -1,0 +1,99 @@
+{
+    "daily_num": 215,
+    "repo": [
+        {
+            "name": "Kademlua",
+            "owner": "distributed",
+            "path": "https://github.com/distributed/Kademlua",
+            "description": "A Kademlia style distributed hash table written in Lua",
+            "topics": [],
+            "language": "Lua",
+            "star": "7"
+        },
+        {
+            "name": "fullscreen-maps",
+            "owner": "hubgit",
+            "path": "https://github.com/hubgit/fullscreen-maps",
+            "description": "Experimenting with map APIs",
+            "topics": [],
+            "language": null,
+            "star": "7"
+        },
+        {
+            "name": "python-livescribe",
+            "owner": "anarchivist",
+            "path": "https://github.com/anarchivist/python-livescribe",
+            "description": "Python utilities to work with Livescribe Pulse pen files/data/etc",
+            "topics": [],
+            "language": null,
+            "star": "7"
+        },
+        {
+            "name": "Nil",
+            "owner": "dllaurence",
+            "path": "https://github.com/dllaurence/Nil",
+            "description": "A tiny lisp implemented directly in LLVM Intermediate Representation.",
+            "topics": [],
+            "language": "C",
+            "star": "6"
+        },
+        {
+            "name": ".vim",
+            "owner": "morr",
+            "path": "https://github.com/morr/.vim",
+            "description": "my vim settings directory",
+            "topics": [],
+            "language": "Vim script",
+            "star": "6"
+        },
+        {
+            "name": "drive-jquery-plugin",
+            "owner": "lfortin",
+            "path": "https://github.com/lfortin/drive-jquery-plugin",
+            "description": "A jQuery plugin to construct the DOM using basic jQuery selectors.",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "6"
+        },
+        {
+            "name": "improved-includes",
+            "owner": "thorncp",
+            "path": "https://github.com/thorncp/improved-includes",
+            "description": "Improved Includes expands upon Rails' javascript_include_tag and stylesheet_link_tag methods, adding functionality to\u2026",
+            "topics": [],
+            "language": "Ruby",
+            "star": "6"
+        },
+        {
+            "name": "vim-config",
+            "owner": "codito",
+            "path": "https://github.com/codito/vim-config",
+            "description": "My vim config files",
+            "topics": [
+                "vimrc",
+                "vim",
+                "vim-configuration"
+            ],
+            "language": "Vim script",
+            "star": "6"
+        },
+        {
+            "name": "clocky-frontend-cappuccino",
+            "owner": "bruz",
+            "path": "https://github.com/bruz/clocky-frontend-cappuccino",
+            "description": "A Cappuccino implementation of the front end for Clocky, a trivial time tracker",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "6"
+        },
+        {
+            "name": "mootools-namespace",
+            "owner": "ericclemmons",
+            "path": "https://github.com/ericclemmons/mootools-namespace",
+            "description": "Allows Classes to specify namespace (\"My.Fx.Accordion\") and extend \"Moo.Fx.Accordion\", similar to Dojo.provide/require",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "6"
+        }
+    ]
+}
