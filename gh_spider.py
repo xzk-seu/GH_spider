@@ -25,6 +25,11 @@ def get_date_list(y):
 
 
 def page_spider(date_str, page):
+    res_path = os.path.join(os.getcwd(), 'result', date_str.split('-')[0], '%s-%d.json' % (date_str, page))
+    if os.path.exists(res_path):
+        with open(res_path, 'r') as fr:
+            logger('%s-%d.json is existing!' % (date_str, page))
+            return json.load(fr)['daily_num']
     p = {'p': page,
          'q': 'created:'+date_str,
          'type': 'Repositories',
