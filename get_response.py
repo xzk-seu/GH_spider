@@ -31,6 +31,12 @@ def proxy_cfg(proxy_id):
     if proxy_id in range(len(proxy_list)):
         proxy = proxy_list[proxy_id]
         proxyHost = proxy['proxyHost']
+        if proxyHost == "proxy.crawlera.com":
+            proxyPort = proxy['proxyPort']
+            proxyAuth = proxy['proxyAuth']
+            logger.info('proxy: %s is chosen!\n' % proxyHost)
+            return {"https": "https://{}@{}:{}/".format(proxyAuth, proxyHost, proxyPort),
+                    "http": "http://{}@{}:{}/".format(proxyAuth, proxyHost, proxyPort)}
         proxyPort = proxy['proxyPort']
         proxyUser = proxy['proxyUser']
         proxyPass = proxy['proxyPass']
@@ -87,11 +93,12 @@ def repo_parser(raw_repo):
     t3 = raw_repo.contents[3]
     # 语言和star
     language = None
+    star = None
     try:
         language = t3.contents[1].contents[2].strip()
+        star = t3.contents[3].contents[1].contents[2].strip()
     except IndexError:
         pass
-    star = t3.contents[3].contents[1].contents[2].strip()
     repo = {'name': repo_name,
             'owner': repo_owner,
             'path': repo_url,

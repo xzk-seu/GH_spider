@@ -66,9 +66,11 @@ def daily_spider(date_str, pool, proxy):
     if not isinstance(daily_num, int):
         return
     if daily_num > 900:
-        remain_page = 100
+        remain_page = 99
     else:
         remain_page = daily_num//10
+        if daily_num % 10 == 0:
+            remain_page -= 1
     for i in range(remain_page):
         page = i+2
         pool.apply_async(page_spider, args=(date_str, page, proxy))

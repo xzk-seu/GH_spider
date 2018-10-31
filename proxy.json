@@ -28,5 +28,16 @@
         "proxyPort": "9020",
         "proxyUser": "HX0N9NRC2F5394LD",
         "proxyPass": "74E67958CBF14561"
+    },
+    {
+        "proxyHost": "http-proxy-sg2.dobel.cn",
+        "proxyPort": "9180",
+        "proxyUser": "DONGNANHTT1",
+        "proxyPass": "T74B13bQ"
+    },
+    {
+        "proxyHost": "proxy.crawlera.com",
+        "proxyPort": "8010",
+        "proxyAuth": "78d4b6f49900465f881f63b4b1de4029"
     }
 ]
