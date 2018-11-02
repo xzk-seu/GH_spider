@@ -77,7 +77,7 @@ def page_parser(resp):
 def repo_parser(raw_repo):
     t1 = raw_repo.contents[1]
     repo_item = t1.h3.a
-    description = t1.p.contents[0].string.strip()
+
     repo_json = repo_item['data-hydro-click']
     repo_dict = json.loads(repo_json)
     repo_url = repo_dict['payload']['result']['url']
@@ -94,7 +94,9 @@ def repo_parser(raw_repo):
     # 语言和star
     language = None
     star = None
+    description = None
     try:
+        description = t1.p.contents[0].string.strip()
         language = t3.contents[1].contents[2].strip()
         star = t3.contents[3].contents[1].contents[2].strip()
     except IndexError:
@@ -119,6 +121,7 @@ def get_response(url, param=None, proxy=None):
             r = _SESSION.get(url=url,
                              params=param,
                              proxies=proxy,
+                             # verify=False,
                              headers=_HEADERS)
             r.raise_for_status()
             r.encoding = r.apparent_encoding

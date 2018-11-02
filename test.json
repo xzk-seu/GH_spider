@@ -1,126 +1,97 @@
 {
-    "daily_num": 2093,
+    "daily_num": 141,
     "repo": [
         {
-            "name": "finagle",
-            "owner": "twitter",
-            "path": "https://github.com/twitter/finagle",
-            "description": "A fault tolerant, protocol-agnostic RPC system",
-            "topics": [
-                "finagle",
-                "scala",
-                "mysql",
-                "java",
-                "redis",
-                "http",
-                "memcached",
-                "distributed-systems",
-                "http2",
-                "thrift",
-                "rpc",
-                "zipkin"
-            ],
-            "language": "Scala",
-            "star": "6.8k"
-        },
-        {
-            "name": "Elastica",
-            "owner": "ruflin",
-            "path": "https://github.com/ruflin/Elastica",
-            "description": "Elastica is a PHP client for elasticsearch",
-            "topics": [],
-            "language": "PHP",
-            "star": "1.7k"
-        },
-        {
-            "name": "boom",
-            "owner": "holman",
-            "path": "https://github.com/holman/boom",
-            "description": "Motherfucking TEXT SNIPPETS! On the COMMAND LINE!",
+            "name": "acl9",
+            "owner": "be9",
+            "path": "https://github.com/be9/acl9",
+            "description": "Yet another role-based authorization system for Rails",
             "topics": [],
             "language": "Ruby",
-            "star": "1.1k"
+            "star": "833"
         },
         {
-            "name": "rgeo",
-            "owner": "rgeo",
-            "path": "https://github.com/rgeo/rgeo",
-            "description": "Geospatial data library for Ruby",
-            "topics": [
-                "geolocation",
-                "rgeo",
-                "ruby",
-                "proj4-library"
-            ],
-            "language": "Ruby",
-            "star": "745"
-        },
-        {
-            "name": "iOS-OpenGLES-Stuff",
-            "owner": "jlamarche",
-            "path": "https://github.com/jlamarche/iOS-OpenGLES-Stuff",
-            "description": "Various scripts, utils, and code examples for OpenGL ES programming for iOS",
-            "topics": [],
-            "language": "C",
-            "star": "682"
-        },
-        {
-            "name": "allegro5",
-            "owner": "liballeg",
-            "path": "https://github.com/liballeg/allegro5",
-            "description": "The official Allegro 5 git repository. Pull requests welcome!",
-            "topics": [
-                "c",
-                "audio",
-                "android",
-                "windows",
-                "unix",
-                "opengl",
-                "video",
-                "osx",
-                "game-development"
-            ],
-            "language": "C",
-            "star": "669"
-        },
-        {
-            "name": "GAJavaScript",
-            "owner": "newyankeecodeshop",
-            "path": "https://github.com/newyankeecodeshop/GAJavaScript",
-            "description": "Library to simplify working with JavaScript and UIWebView.",
+            "name": "afloat",
+            "owner": "millenomi",
+            "path": "https://github.com/millenomi/afloat",
+            "description": "Afloat is a Mac extender that adds useful window management commands to most Mac apps.",
             "topics": [],
             "language": "Objective-C",
-            "star": "420"
+            "star": "678"
         },
         {
-            "name": "vim-cute-python",
-            "owner": "ehamberg",
-            "path": "https://github.com/ehamberg/vim-cute-python",
-            "description": "Unicode goodness for Python code by using vim's \u201cconceal\u201d feature",
+            "name": "juno",
+            "owner": "breily",
+            "path": "https://github.com/breily/juno",
+            "description": "a lightweight and simple python web framework",
+            "topics": [],
+            "language": "Python",
+            "star": "251"
+        },
+        {
+            "name": "gitready",
+            "owner": "qrush",
+            "path": "https://github.com/qrush/gitready",
+            "description": "learn git one commit at a time. updates weekly or when great tips are found",
+            "topics": [],
+            "language": null,
+            "star": "100"
+        },
+        {
+            "name": "django-dbsettings",
+            "owner": "sciyoshi",
+            "path": "https://github.com/sciyoshi/django-dbsettings",
+            "description": "NOTE: this project is now maintained by",
             "topics": [
-                "vim",
                 "python"
             ],
-            "language": "Vim script",
-            "star": "250"
+            "language": "Python",
+            "star": "99"
         },
         {
-            "name": "FuzzyFinder",
-            "owner": "vim-scripts",
-            "path": "https://github.com/vim-scripts/FuzzyFinder",
-            "description": "buffer/file/command/tag/etc explorer with fuzzy matching",
+            "name": "fe",
+            "owner": "python-postgres",
+            "path": "https://github.com/python-postgres/fe",
+            "description": "py-postgresql: Access a PostgreSQL database with Python 3",
             "topics": [],
-            "language": "Vim script",
-            "star": "238"
+            "language": "Python",
+            "star": "52"
         },
         {
-            "name": "VimClojure",
-            "owner": "vim-scripts",
-            "path": "https://github.com/vim-scripts/VimClojure",
-            "description": "A filetype, syntax and indent plugin for Clojure",
+            "name": "ruby-web-search",
+            "owner": "mattetti",
+            "path": "https://github.com/mattetti/ruby-web-search",
+            "description": "A Ruby gem that provides a way to retrieve search results via the main search engines using Ruby",
             "topics": [],
-            "language": "Vim script",
-            "star": "187"
+            "language": "Ruby",
+            "star": "45"
+        },
+        {
+            "name": "jquery-condense-plugin",
+            "owner": "jsillitoe",
+            "path": "https://github.com/jsillitoe/jquery-condense-plugin",
+            "description": "jQuery plugin to condense and truncate blocks of text into smaller blocks and provide smooth animation for expanding.",
+            "topics": [],
+            "language": "JavaScript",
+            "star": "36"
+        },
+        {
+            "name": "phplifestream",
+            "owner": "johannilsson",
+            "path": "https://github.com/johannilsson/phplifestream",
+            "description": "PHP Lifestream Aggregator, built with Zend Framework",
+            "topics": [],
+            "language": "PHP",
+            "star": "36"
+        },
+        {
+            "name": "blankslate",
+            "owner": "masover",
+            "path": "https://github.com/masover/blankslate",
+            "description": "BlankSlate from Builder. This is supposed to be a separate gem, but I can't find it anywhere.",
+            "topics": [],
+            "language": "Ruby",
+            "star": "35"
         }
     ]
 }

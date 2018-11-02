@@ -18,6 +18,7 @@ if __name__ == '__main__':
                     p_num += 1
                 if p_num > 100:
                     p_num = 100
+                print('%s-%s-%s' % (f[0], f[1], f[2]), daily_num, p_num)
                 page_num += p_num
                 for p in range(p_num):
                     f_path = os.path.join(path, '%s-%s-%s-%d.json' % (y, f[1], f[2], p+1))

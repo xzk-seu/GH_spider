@@ -65,7 +65,7 @@ def daily_spider(date_str, pool, proxy):
     daily_num = page_spider(date_str, 1, proxy)
     if not isinstance(daily_num, int):
         return
-    if daily_num > 900:
+    if daily_num > 990:
         remain_page = 99
     else:
         remain_page = daily_num//10
