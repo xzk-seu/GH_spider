@@ -6,7 +6,13 @@ import json
 
 
 _HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.'
-                          '0.3497.100 Safari/537.36'}
+                          '0.3497.100 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Cache-Control': 'max-age=0',
+            'Connection': 'keep-alive',
+            'Host': 'github.com',
+            'Upgrade-Insecure-Requests': '1'}
 
 # proxyHost = "http-proxy-sg2.dobel.cn"
 # proxyPort = "9180"
@@ -35,8 +41,10 @@ def proxy_cfg(proxy_id):
             proxyPort = proxy['proxyPort']
             proxyAuth = proxy['proxyAuth']
             logger.info('proxy: %s is chosen!\n' % proxyHost)
-            return {"https": "https://{}@{}:{}/".format(proxyAuth, proxyHost, proxyPort),
+            proxy = {"https": "https://{}@{}:{}/".format(proxyAuth, proxyHost, proxyPort),
                     "http": "http://{}@{}:{}/".format(proxyAuth, proxyHost, proxyPort)}
+            print(proxy)
+            return proxy
         proxyPort = proxy['proxyPort']
         proxyUser = proxy['proxyUser']
         proxyPass = proxy['proxyPass']
@@ -51,6 +59,7 @@ def proxy_cfg(proxy_id):
             "http": proxyMeta,
             "https": proxyMeta,
         }
+    print(proxy)
     return proxy
 
 
@@ -138,6 +147,7 @@ def get_response(url, param=None, proxy=None):
 
 
 if __name__ == '__main__':
+    proxy_cfg(6)
     SEARCH_URL = 'https://github.com/search'
     page = 1
     date_str = '2009-01-03'
