@@ -38,6 +38,11 @@
     {
         "proxyHost": "proxy.crawlera.com",
         "proxyPort": "8010",
-        "proxyAuth": "78d4b6f49900465f881f63b4b1de4029"
+        "proxyAuth": "78d4b6f49900465f881f63b4b1de4029:"
+    },
+    {
+        "proxyHost": "proxy.crawlera.com",
+        "proxyPort": "8010",
+        "proxyAuth": "a6f8ba24bb164642994d21d647a6d866:"
     }
 ]

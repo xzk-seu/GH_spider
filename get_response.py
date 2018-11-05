@@ -6,7 +6,10 @@ import json
 
 
 _HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.'
-                          '0.3497.100 Safari/537.36'}
+                          '0.3497.100 Safari/537.36',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Cookie': '_ga=GA1.2.1049265467.1530712708; _octo=GH1.1.1128878697.1530712708; user_session=kXPd0C6UgGnoyQmb9pkStYiuhp-JjZMt_724a9-Lcs9d-3rO; __Host-user_session_same_site=kXPd0C6UgGnoyQmb9pkStYiuhp-JjZMt_724a9-Lcs9d-3rO; logged_in=yes; dotcom_user=xzk-seu; tz=Asia%2FShanghai; has_recent_activity=1; _gh_sess=d0NWblNYMityQ3lhNGd4SHVuQ1V5L1lDMklTS2gvUUl1YjJLaFJCaVpVcURjdytxdGFDdXVjeXNycUFheDdOcXBhMjNuTlFPS25pS2xoTzVmZVNpeVVMQTRNVEZWcVZ0dWFWbmtGZklNQ0EzYkI5eVo5a0NmVkE0TlB6dnl1QlBqRWNLL0dmTVJ0ZDk5YnUvaHJteHBwa0w5ZnNqK0t5UU9ndFo3cUNrcnNRSC9tV1NTSTYwV2RrNFpKdkhHRmZndnp3NTNXQkYwTllCdHBXd2tvc0VFS0tvYXA2ZkV0bFFqQS8wbEFBYzJxZktseEpmUTRoWUZ3bEJtcituNENqd21PdmxkdDJ6QzBuNS9iRFY5Y2RHU1VQaWZaTWZLVUQyenU1TFNqTS8zWmtXbzlzMWMzMDNvTFVPZVRBT1hNMlUtLXZ1ZlliVEJHa2ZlODZQZ3ZvYndzSEE9PQ%3D%3D--2940e3a18de8680f4c279b61aad8d17e42a81df4'}
 
 # proxyHost = "http-proxy-sg2.dobel.cn"
 # proxyPort = "9180"
