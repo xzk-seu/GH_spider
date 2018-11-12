@@ -39,6 +39,25 @@ def daily_merge(date_str):
         json.dump(r_list, fw)
 
 
+def zero_day():
+    r = ['2008-01-01',
+         '2008-01-02',
+         '2008-01-03',
+         '2008-01-04',
+         '2008-01-05',
+         '2008-01-06',
+         '2008-01-07',
+         '2008-01-08',
+         '2008-01-09',
+         '2008-01-10',
+         '2008-01-11',
+         '2008-01-16',
+         '2008-01-24',
+         '2008-01-26',
+         '2008-01-20']
+    return r
+
+
 if __name__ == '__main__':
     y = input('input year: ')
     path = os.path.join(os.getcwd(), 'result', y)
@@ -54,5 +73,7 @@ if __name__ == '__main__':
     for d in range((end - begin).days + 1):
         d_str = day.isoformat()
         day += day.resolution
+        if d_str in zero_day():
+            continue
         print(d_str)
         daily_merge(d_str)
