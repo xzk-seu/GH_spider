@@ -10,9 +10,11 @@ _HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
             'Accept-Encoding': 'gzip, deflate, br',
             'Cache-Control': 'max-age=0',
-            'Connection': 'keep-alive',
             'Host': 'github.com',
-            'Upgrade-Insecure-Requests': '1'}
+            'Upgrade-Insecure-Requests': '1',
+            'Connection': 'keep-alive',
+            # 'Cookie': '_octo=GH1.1.1136169673.1536760799; _ga=GA1.2.1039885993.1536760803; has_recent_activity=1; _gat=1; tz=Asia%2FShanghai; logged_in=no; _gh_sess=T1VMZm53ZHA4STJ5cUk4OXhwdURTa2Fva281ckN0Y0ViNUYrejRlcVVQQ3JidENiZHJRNTArbkVTRFBPSi9GL2d1cHhOcFdxeVJzbW5EWWtuaEFORGVDWlVvUGdmdUc5SVlKdEg4OWU3OWZBVnFuZmErQURqMW5rR2tFU0NEK2RUbzVEZEFFdUhhbFRld0JUck5LTFJFMW9nUGY2RlROVXFMbDRVUVNHWjhidTRsRjNkNlVJL2dYck9hYmFzSFJlZlZCbHhDWnIzb0VCZXVLOW94V3I4T0t1QzBnUmtYNEkvNlpuK0RlNlh1djFqTERlcjM2dEM3RnNqeHUvanVoOTBmU2ptenE2N1k2ejJSaU9CUEZLZVZiTkFhSjFVcFBSN3dtdjlCcjBJREF0UUx1RGltQ2ptYzhLSnd3OWwxdFktLUpEcnB2ZzkrTHhzZTAvTE81UCtwL1E9PQ%3D%3D--05b35ee18a9291812129003ef5bbe21634d75f03'}
+            'Cookie': '_ga=GA1.2.1049265467.1530712708; _octo=GH1.1.1128878697.1530712708; user_session=kXPd0C6UgGnoyQmb9pkStYiuhp-JjZMt_724a9-Lcs9d-3rO; __Host-user_session_same_site=kXPd0C6UgGnoyQmb9pkStYiuhp-JjZMt_724a9-Lcs9d-3rO; logged_in=yes; dotcom_user=xzk-seu; tz=Asia%2FShanghai; has_recent_activity=1; _gh_sess=d0NWblNYMityQ3lhNGd4SHVuQ1V5L1lDMklTS2gvUUl1YjJLaFJCaVpVcURjdytxdGFDdXVjeXNycUFheDdOcXBhMjNuTlFPS25pS2xoTzVmZVNpeVVMQTRNVEZWcVZ0dWFWbmtGZklNQ0EzYkI5eVo5a0NmVkE0TlB6dnl1QlBqRWNLL0dmTVJ0ZDk5YnUvaHJteHBwa0w5ZnNqK0t5UU9ndFo3cUNrcnNRSC9tV1NTSTYwV2RrNFpKdkhHRmZndnp3NTNXQkYwTllCdHBXd2tvc0VFS0tvYXA2ZkV0bFFqQS8wbEFBYzJxZktseEpmUTRoWUZ3bEJtcituNENqd21PdmxkdDJ6QzBuNS9iRFY5Y2RHU1VQaWZaTWZLVUQyenU1TFNqTS8zWmtXbzlzMWMzMDNvTFVPZVRBT1hNMlUtLXZ1ZlliVEJHa2ZlODZQZ3ZvYndzSEE9PQ%3D%3D--2940e3a18de8680f4c279b61aad8d17e42a81df4'}
 
 # proxyHost = "http-proxy-sg2.dobel.cn"
 # proxyPort = "9180"
@@ -41,10 +43,8 @@ def proxy_cfg(proxy_id):
             proxyPort = proxy['proxyPort']
             proxyAuth = proxy['proxyAuth']
             logger.info('proxy: %s is chosen!\n' % proxyHost)
-            proxy = {"https": "https://{}@{}:{}/".format(proxyAuth, proxyHost, proxyPort),
+            return {"https": "https://{}@{}:{}/".format(proxyAuth, proxyHost, proxyPort),
                     "http": "http://{}@{}:{}/".format(proxyAuth, proxyHost, proxyPort)}
-            print(proxy)
-            return proxy
         proxyPort = proxy['proxyPort']
         proxyUser = proxy['proxyUser']
         proxyPass = proxy['proxyPass']
@@ -59,7 +59,6 @@ def proxy_cfg(proxy_id):
             "http": proxyMeta,
             "https": proxyMeta,
         }
-    print(proxy)
     return proxy
 
 
@@ -147,7 +146,6 @@ def get_response(url, param=None, proxy=None):
 
 
 if __name__ == '__main__':
-    proxy_cfg(6)
     SEARCH_URL = 'https://github.com/search'
     page = 1
     date_str = '2009-01-03'
